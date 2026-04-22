@@ -7,7 +7,6 @@ extern CAN_HandleTypeDef hcan;
 static MasterCAN_SensorData_t g_mcan_sensor_data;
 static uint8_t g_mcan_last_node_id = 0;
 
-/* 允许的从机节点号范围，后面你要扩到4块也方便 */
 #define MCAN_MIN_NODE_ID    0x01U
 #define MCAN_MAX_NODE_ID    0x04U
 
