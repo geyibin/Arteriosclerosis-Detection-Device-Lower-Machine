@@ -1,0 +1,38 @@
+# ===== OS / Editor =====
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ===== Logs / temp =====
+*.log
+*.tmp
+*.bak
+*.cache
+
+# ===== Keil / MDK user files =====
+*.uvguix.*
+*.uvoptx
+*.dep
+*.plg
+*.lnp
+
+# ===== Build outputs =====
+*.o
+*.d
+*.crf
+*.lst
+*.map
+*.axf
+*.elf
+*.hex
+*.bin
+
+# ===== Common output folders =====
+Debug/
+Release/
+Listings/
+Objects/
+
+# ===== Optional: CubeMX generated backup/temp =====
+*.orig
